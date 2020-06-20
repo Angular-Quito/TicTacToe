@@ -1,0 +1,25 @@
+.content-table {
+  max-width: 300px;
+  margin: 0 auto;
+  .content-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+
+  .ficha {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 54px;
+    font-weight: 34px;
+    line-height: 34px;
+    height: 100%;
+    max-height: 30%;
+    height: 100px;
+    width: 100%;
+    max-width: 30%;
+    text-align: center;
+    padding: 0;
+  }
+}
