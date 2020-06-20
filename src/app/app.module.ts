@@ -4,17 +4,18 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { TablaComponent } from './tabla/tabla.component';
 import { TableroComponent } from './tablero/tablero.component';
+import { ListaUsuariosComponent } from './lista-usuarios/lista-usuarios.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     TablaComponent,
-    TableroComponent
+    TableroComponent,
+    ListaUsuariosComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule, SharedModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
